@@ -1,0 +1,116 @@
+* {
+    border-width: 0px;
+}
+
+html {
+    background-color: rgb(28, 34, 34);
+}
+
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar {
+        margin: 0;
+        padding: 0;
+        width: 300px;
+        height: 100%;
+        position: sticky;
+        height: 100vh;
+        text-decoration: none;
+
+        
+
+      }
+
+
+a {
+    text-decoration: none;
+}
+
+ul, .nav {
+    text-decoration: none;
+    font-family: 'Garamond', cursive;
+    color: rgb(255, 254, 213);
+    font-size: 3vh;
+    min-height: 60px;
+    margin: auto;
+    text-align: left; 
+    letter-spacing: 0.2vw;
+    list-style: none;
+}
+
+li:hover {
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Shizuru', cursive;    
+    color: rgb(185, 198, 214);
+    font-size: 10vh;
+    min-height: 100px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1vw;
+
+}
+
+h2 {
+    font-family: 'Shizuru', cursive;    
+    color: rgb(255, 254, 213);
+    font-size: 3vh;
+    min-height: 100px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 2vw;
+}
+
+
+.splash {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100vh;
+    overflow: hidden;
+
+    
+}
+
+#crosses {
+    background-color: rgb(28, 34, 34);
+    background-image: url("../img/mortsigils.svg");
+    background-repeat: no-repeat;
+    position:static;
+        background-position:90%
+}
+
+.worksgrid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.gallery {
+    margin: auto; 
+    height: 100vh;
+    grid-area: 1 / 2 / 1 / 3;
+    overflow: scroll; 
+
+    
+}
+
+.galleryimg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    font-family: 'Garamond', cursive;
+    color: rgb(255, 254, 213);
+    font-size: 20px;
+    margin: 10px;
+}
